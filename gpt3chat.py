@@ -2,7 +2,7 @@ import openai
 from tkinter import *
 
 def gpt3(stext):
-    openai.api_key = 'YOUR-API-KEY'
+    openai.api_key = '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'
     response = openai.Completion.create(
         engine="davinci-instruct-beta",
         prompt=stext,
